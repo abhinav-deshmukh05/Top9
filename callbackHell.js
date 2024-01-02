@@ -8,3 +8,10 @@
 // console.log("Season 2");
 
 const cart=["shoes", "pants","kurta"];
+
+createOrder(cart,function(orderId) {
+    proceedTopayment(orderId);
+
+}); //orderId
+
+

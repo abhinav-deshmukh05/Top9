@@ -23,13 +23,18 @@ const user= {
 // this keyword is only used in object array
 
 const chai = () =>{
-    let username = "hitesh"
-    console.log(this);
+    let username = "hitesh";
+    console.log(username);
 }
-//chai(); 
+console.log(chai());
 
 const addTwo =(num1,num2)=>{
     return num1+num2;
 }
 
+function nameString(){
+    var b= "sucks";
+    console.log("hi");
+}
+console.log(nameString);
 console.log(addTwo(2,3));

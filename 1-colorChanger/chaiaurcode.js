@@ -6,6 +6,7 @@ h.addEventListener('click', function(){
     body.style.backgroundColor='black';
 } )
 buttons.forEach(function (button) {
+    console.log(button);
     button.addEventListener('click', function (e) {
         body.style.backgroundColor = e.target.id;
     });
